@@ -1,0 +1,19 @@
+function createclosure(){
+	var a=7;
+	var b=6;
+	return function(){
+		return a;
+	};
+}
+var c=createclosure();
+var d=c();
+
+
+IIFE <==> Immediately Invoked Function Expression Call
+
+
+10991a146#
+
+
+
+mvn archetype:generate -DgroupId=com.nisum.macys -DartifactId=Myapp -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
